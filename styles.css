@@ -1,0 +1,29 @@
+header {
+  background-color: grey;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  /*creates a fluid height*/
+  padding: 200px 15px;
+  color: white;
+}
+
+/*what we offer*/
+#wwo {
+  background-color: lightgrey;
+  padding: 25px;
+}
+#wwo h2 {
+  margin: 0;
+}
+
+/*our mission*/
+#om {
+  padding: 25px;
+}
+
+/*how to join*/
+#htj {
+  background-color: lightgrey;
+  padding: 25px;
+}
