@@ -118,6 +118,7 @@ img.img-shadow {
 nav {
   background-color: black;
   color: lightgray;
+  position: relative;
 }
 nav .nav-btn {
   position: absolute;

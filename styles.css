@@ -1,3 +1,11 @@
+/*Global*/
+h2 {
+  margin-top: 0;
+}
+/*--------------------------*/
+/*-----------INDEX----------*/
+/*--------------------------*/
+/*banner*/
 header {
   background-color: grey;
   text-align: center;
@@ -13,9 +21,6 @@ header {
   background-color: lightgrey;
   padding: 25px;
 }
-#wwo h2 {
-  margin: 0;
-}
 
 /*our mission*/
 #om {
@@ -25,5 +30,41 @@ header {
 /*how to join*/
 #htj {
   background-color: lightgrey;
+  padding: 25px;
+}
+
+
+/*--------------------------*/
+/*----------CONTACT---------*/
+/*--------------------------*/
+/*htru*/
+#htru {
+  background-color: lightgrey;
+  padding: 25px;
+}
+
+
+/*--------------------------*/
+/*-----------ABOUT----------*/
+/*--------------------------*/
+/*auto*/
+#auto {
+  background-color: lightgrey;
+  padding: 25px;
+}
+
+/*wws*/
+#wws {
+  padding: 25px;
+}
+
+/*wkum*/
+#wkum {
+  background-color: lightgrey;
+  padding: 25px;
+}
+
+/*mac*/
+#mac {
   padding: 25px;
 }
