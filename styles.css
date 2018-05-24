@@ -1,13 +1,46 @@
+/*color pallet*/
+/*Blue: #002BDA*/
+/*green: #00A800*/
+/*red: #FF0000*/
+/*yellow: #FFFF00*/
+.blue {
+  color: #002BDA;
+}
+.green {
+  color: #00A800;
+}
+.red {
+  color: #FF0000;
+}
+.yellow {
+  color: #FFFF00;
+}
+
 /*Global*/
 h2 {
   margin-top: 0;
+}
+body {
+  background-color: white;
+}
+.box {
+  padding: 25px;
+  background-color: rgba(211,211,211,0.25);
+  border-radius: 10px;
+  border: solid 1px lightgrey;
+}
+
+/*nav*/
+nav {
+  background-color: black;
+  color: white;
 }
 /*--------------------------*/
 /*-----------INDEX----------*/
 /*--------------------------*/
 /*banner*/
 header {
-  background-color: grey;
+  background-image: url(img/banner.jpg);
   text-align: center;
   background-size: cover;
   background-position: center center;
@@ -18,19 +51,49 @@ header {
 
 /*what we offer*/
 #wwo {
-  background-color: lightgrey;
   padding: 25px;
+}
+#wwo h2 {
+  text-align: center;
+}
+#wwo hr {
+  width: 250px;
+  background-color: #002BDA;
+  height: 3px;
+  border: none;
 }
 
 /*our mission*/
 #om {
   padding: 25px;
 }
+#om h2 {
+  text-align: center;
+}
+#om hr {
+  width: 200px;
+  background-color: #00A800;
+  height: 3px;
+  border: none;
+}
 
 /*how to join*/
 #htj {
-  background-color: lightgrey;
   padding: 25px;
+}
+#htj h2 {
+  text-align: center;
+}
+#htj hr {
+  width: 328px;
+  background-color: #FF0000;
+  height: 3px;
+  border: none;
+}
+@media only screen and (max-width: 500px){
+  #htj hr {
+    width: 300px;
+  }
 }
 
 
@@ -39,8 +102,16 @@ header {
 /*--------------------------*/
 /*htru*/
 #htru {
-  background-color: lightgrey;
   padding: 25px;
+}
+#htru h2 {
+  text-align: center;
+}
+#htru hr {
+  width: 240px;
+  background-color: #002BDA;
+  height: 3px;
+  border: none;
 }
 
 
@@ -49,22 +120,73 @@ header {
 /*--------------------------*/
 /*auto*/
 #auto {
-  background-color: lightgrey;
   padding: 25px;
+}
+#auto h2 {
+  text-align: center;
+}
+#auto hr {
+  width: 300px;
+  background-color: #002BDA;
+  height: 3px;
+  border: none
+}
+#auto h3 {
+  text-align: center;
+  padding: 5px;
 }
 
 /*wws*/
 #wws {
   padding: 25px;
 }
+#wws h2 {
+  text-align: center;
+}
+#wws hr {
+  width: 500px;
+  background-color: #00A800;
+  height: 3px;
+  border: none;
+}
+@media only screen and (max-width: 500px){
+  #wws hr {
+    width: 300px;
+  }
+}
 
 /*wkum*/
 #wkum {
-  background-color: lightgrey;
   padding: 25px;
+}
+#wkum h2 {
+  text-align: center;
+}
+#wkum hr {
+  width: 328px;
+  background-color: #FF0000;
+  height: 3px;
+  border: none;
+}
+@media only screen and (max-width: 500px){
+  #wkum hr {
+    width: 310px;
+  }
 }
 
 /*mac*/
 #mac {
   padding: 25px;
+}
+#mac h2 {
+  text-align: center;
+}
+#mac hr {
+  width: 230px;
+  background-color: #FFFF00;
+  height: 3px;
+  border: none;
+}
+#mac img {
+  padding: 5px;
 }
